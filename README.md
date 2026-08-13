@@ -61,7 +61,9 @@ AI를 활용해 학습과 개발의 효율을 높이고,
 | [RoomLink](https://github.com/KDongGyu1/RoomLink) | 사용자와 공간을 연결하는 서비스형 프로젝트 |
 | [학점가방](https://github.com/Dongguk-unibag) | 동국대학교 학점 관리 프로젝트 |
 | [searchMovie](https://github.com/KDongGyu1/searchMovie) | 영화 검색 프로젝트 `Private` |
-| [tectupSCPJ3](https://github.com/KDongGyu1/tectupSCPJ3) | `kt tech up` 사이버 보안 2기 과정에서 진행한 정보보호 학습 프로젝트 |
+| [tectupSCPJ3](https://github.com/KDongGyu1/tectupSCPJ3) | AWS 기반 핀테크 인프라 구축 프로젝트 |
+| [hybrid-attack-pathfinder](https://github.com/KDongGyu1/hybrid-attack-pathfinder.git) | 하이브리드 공격 경로 탐지 시스템 |
+
 
 ---
 
