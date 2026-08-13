@@ -15,13 +15,13 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 ## 👨‍💻 About Me
 
 - 🔐 클라우드 보안(AWS)과 **DevSecOps** 방향으로 커리어를 설계하고 있습니다.
-- 🏦 **FinPay 심화 보안 프로젝트**에서 전자금융 서비스를 가정한 AWS 아키텍처를 설계하고, **HTTPS/mTLS·KMS·WAF·CloudTrail 기반 로그 관제·EventBridge/SNS 알림**을 Terraform IaC로 구현했습니다.
-- 🛡️ **하이브리드 공격 경로 탐지 시스템(Team red-red)**에서 **자산 수집 자동화(Nmap·Trivy·Scout Suite·AWS CLI)** 를 담당하며, 온프레미스와 AWS 자산을 Neo4j 그래프로 연동하는 파이프라인을 학습했습니다.
+- 🏦 **AWS 기반 핀테크 보안 프로젝트**에서 팀장의 역할을 수행하며 전자금융감독규정을 준수한 AWS 아키텍처를 설계하고, **HTTPS/mTLS·KMS·WAF·CloudTrail 기반 로그 관제·EventBridge/SNS 알림**을 Terraform IaC로 구현했습니다.
+- 🛡️ 하이브리드 공격 경로 탐지 시스템 프로젝트에서 **자산 수집 자동화(Nmap·Trivy·Scout Suite·AWS CLI)** 를 담당하며, 온프레미스와 AWS 자산을 Neo4j 그래프로 연동하는 파이프라인을 학습했습니다.
 - 🎮 **게임 로그 수집 파이프라인**에서 **Redis Streams + FastAPI + Docker** 기반 유실 방지 아키텍처를 설계하고, 10,000건 부하테스트에서 **성공률 100%·pending 0·lag 0** 을 검증했습니다.
 - 🤖 **Python·Shell·API**를 활용한 보안 업무 자동화와 반복 작업 효율화에 관심이 많습니다.
 - 🧠 **AI 도구(ChatGPT, Claude 등)**를 학습·코드 리뷰·문서화·문제 해결에 적극 활용합니다.
-- 📚 현재 **AWS SAA / 정보처리기사** 자격증 취득을 위해 학습 중입니다.
-- ✍️ Velog에 학습 내용을, Notion에 프로젝트 회고를 꾸준히 정리합니다.
+- 📚 현재 **정보처리기사/정보보안기사/AWS SAA** 자격증 취득을 위해 학습 중입니다.
+- ✍️ Velog와 Notion에 학습 내용을 꾸준히 정리합니다.
 
 ---
 
@@ -80,7 +80,7 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 > **전자금융 서비스를 가정한 AWS 클라우드 보안 아키텍처 (Terraform IaC)**  
 > `AWS` `Terraform` `HTTPS/mTLS` `KMS` `WAF` `CloudTrail` `EventBridge`
 
-**역할**: 팀장 / App·운영·성능 담당 (팀명: 구름수호대)
+**역할**: 팀장 / App·운영·성능 담당(KT tech up 사이버보안 2기)
 
 - **전송보안 강화**: CloudFront → ALB → App → RDS 전 구간의 HTTPS 전환, `sslmode=require` 기반 PostgreSQL TLS 연결 적용
 - **App 보안 헤더 구현**: HTTPS 환경 자동 감지 후 `Secure Cookie`, `HSTS`, `CSP`, `X-Content-Type-Options`, `Referrer-Policy`, `Permissions-Policy` 일괄 적용
@@ -95,7 +95,7 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 > **온프레미스 + AWS 하이브리드 인프라의 공격 경로를 Neo4j 그래프로 탐색하는 SOC 시스템**  
 > `AWS` `Neo4j` `Cypher` `Nmap` `Trivy` `Scout Suite` `2-VPC Architecture`
 
-**역할**: 인프라3 - 자산 수집 담당 (Team red-red, KT tech up 사이버보안 2기)
+**역할**: 인프라3 - 자산 수집 담당 (KT tech up 사이버보안 2기)
 
 - **자산 수집 자동화 도구 구축**: `hap-soc-collector` EC2에서 **AWS CLI·Nmap·Trivy·Scout Suite** 를 격리 환경(venv)으로 설치·운영하는 스크립트 작성
 - **하이브리드 자산 인벤토리**: 온프레미스(Vagrant 기반 WordPress)와 AWS 자산(EKS·RDS·S3·IAM 등) 데이터를 수집해 Neo4j 그래프 시드 데이터 근거로 활용
@@ -132,7 +132,8 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 ## 📈 Currently Learning
 
 - 📖 **AWS Certified Solutions Architect – Associate (SAA)** 자격증 준비 중
-- 📖 **정보처리기사** 필기·실기 학습 중
+- 📖 **정보처리기사** 필기 취득 후 실기 준비중
+- 📖 **정보보안기사** 필기 준비중
 - 🎯 **Python 기반 AWS 보안 자동화 스크립트** 미니 프로젝트 진행 중
   - IAM 사용자 권한 감사 스크립트 (미사용 계정·과도 권한 탐지)
   - S3 버킷 퍼블릭 노출 스캐너
