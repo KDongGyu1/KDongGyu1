@@ -14,7 +14,7 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 
 ## 👨‍💻 About Me
 
-- 🔐 **클라우드 보안(AWS)**과 **DevSecOps** 방향으로 커리어를 설계하고 있습니다.
+- 🔐 클라우드 보안(AWS)과 **DevSecOps** 방향으로 커리어를 설계하고 있습니다.
 - 🏦 **FinPay 심화 보안 프로젝트**에서 전자금융 서비스를 가정한 AWS 아키텍처를 설계하고, **HTTPS/mTLS·KMS·WAF·CloudTrail 기반 로그 관제·EventBridge/SNS 알림**을 Terraform IaC로 구현했습니다.
 - 🛡️ **하이브리드 공격 경로 탐지 시스템(Team red-red)**에서 **자산 수집 자동화(Nmap·Trivy·Scout Suite·AWS CLI)** 를 담당하며, 온프레미스와 AWS 자산을 Neo4j 그래프로 연동하는 파이프라인을 학습했습니다.
 - 🎮 **게임 로그 수집 파이프라인**에서 **Redis Streams + FastAPI + Docker** 기반 유실 방지 아키텍처를 설계하고, 10,000건 부하테스트에서 **성공률 100%·pending 0·lag 0** 을 검증했습니다.
