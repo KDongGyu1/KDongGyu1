@@ -56,14 +56,14 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 ### Security & Data
 ![AWS IAM](https://img.shields.io/badge/AWS%20IAM-DD344C?style=for-the-badge&logo=amazoniam&logoColor=white)
 ![AWS WAF](https://img.shields.io/badge/AWS%20WAF-DD344C?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+
 
 ### DevOps & Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
 
 ### Collaboration & AI
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
@@ -119,12 +119,12 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 
 ### 🏠 [RoomLink](https://github.com/KDongGyu1/RoomLink) — 공간 연결 서비스
 > `Web Service` `Authentication`
-- 사용자와 공간을 연결하는 서비스 프로젝트
+- 사용자와 공간을 연결하는 모바일 애플리케이션 서비스 프로젝트
 - 사용자 인증/인가 흐름 구현 경험
 
 ### 🎓 [학점가방](https://github.com/Dongguk-unibag) — 동국대학교 학점 관리 서비스
 > `Team Project` `Collaboration`
-- 팀 단위 협업 프로젝트, 학점 관리 서비스 구현
+- 팀 단위 협업 프로젝트, 학점 관리 서비스 구현 모바일 애플리케이션
 - Git 협업 워크플로우 및 이슈 관리 경험
 
 ---
