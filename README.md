@@ -118,12 +118,12 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 ---
 
 ### 🏠 [RoomLink](https://github.com/KDongGyu1/RoomLink) — 공간 연결 서비스
-> `Web Service` `Authentication`
+> `Mobile Service` `Authentication` `[android]`
 - 사용자와 공간을 연결하는 모바일 애플리케이션 서비스 프로젝트
 - 사용자 인증/인가 흐름 구현 경험
 
 ### 🎓 [학점가방](https://github.com/Dongguk-unibag) — 동국대학교 학점 관리 서비스
-> `Team Project` `Collaboration`
+> `Team Project` `Collaboration` `[android]` `[ios]`
 - 팀 단위 협업 프로젝트, 학점 관리 서비스 구현 모바일 애플리케이션
 - Git 협업 워크플로우 및 이슈 관리 경험
 
