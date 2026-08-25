@@ -131,7 +131,6 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 
 ## 📈 Currently Learning
 
-- 📖 **AWS Certified Solutions Architect – Associate (SAA)** 자격증 준비 중
 - 📖 **정보처리기사** 필기 취득 후 실기 준비중
 - 📖 **정보보안기사** 필기 준비중
 - 🎯 **Python 기반 AWS 보안 자동화 스크립트** 미니 프로젝트 진행 중
