@@ -12,34 +12,34 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 
 ---
 
-## 👨‍💻 About Me
+## 자기소개
 
-- 🔐 클라우드 보안(AWS)과 **DevSecOps** 방향으로 커리어를 설계하고 있습니다.
-- 🏦 **AWS 기반 핀테크 보안 프로젝트**에서 팀장으로 참여해 전자금융감독규정을 준수한 AWS 아키텍처를 설계하고, ALB + ASG 기반 애플리케이션 서버 운영과 성능 측정을 담당했습니다.
-- 🛡️ **하이브리드 공격 경로 탐지 시스템** 프로젝트에서 자산 수집 자동화(Trivy·Scout Suite·AWS CLI)를 담당하며, 온프레미스와 AWS 자산을 Neo4j 그래프로 연동하는 파이프라인을 구축했습니다.
-- 🎮 **게임 로그 수집 파이프라인**에서 Redis Streams + FastAPI + Docker 기반 유실 방지 아키텍처를 설계하고, 10,000건 부하 테스트에서 **성공률 100%·pending 0·lag 0** 을 검증했습니다.
-- 🔒 현재 **24인 규모 통합 프로젝트**에서 사이버보안 담당으로 SIEM 파이프라인 아키텍처 설계와 WAF/IDS/IPS 로그 정규화 포맷 작업을 진행 중입니다.
-- 🤖 **Python·Shell·AWS CLI**를 활용한 보안 업무 자동화와 반복 작업 효율화에 관심이 많습니다.
-- 🧠 **AI 도구(ChatGPT, Claude 등)**를 학습·코드 리뷰·문서화·문제 해결에 적극 활용합니다.
-- 📚 현재 **정보처리기사(필기 합격·실기 준비 중)·정보보안기사(필기 합격·실기 준비 중)** 취득을 위해 학습 중입니다.
-- ✍️ Notion에 학습 내용을 꾸준히 정리합니다.
+- 클라우드 보안(AWS)과 **DevSecOps** 방향으로 커리어를 설계하고 있습니다.
+- **AWS 기반 핀테크 보안 프로젝트**에서 팀장으로 참여해 전자금융감독규정을 준수한 AWS 아키텍처를 설계하고, ALB + ASG 기반 애플리케이션 서버 운영과 성능 측정을 담당했습니다.
+- **하이브리드 공격 경로 탐지 시스템** 프로젝트에서 자산 수집 자동화(Trivy·Scout Suite·AWS CLI)를 담당하며, 온프레미스와 AWS 자산을 Neo4j 그래프로 연동하는 파이프라인을 구축했습니다.
+- **게임 로그 수집 파이프라인**에서 Redis Streams + FastAPI + Docker 기반 유실 방지 아키텍처를 설계하고, 10,000건 부하 테스트에서 **성공률 100%·pending 0·lag 0** 을 검증했습니다.
+- 현재 **24인 규모 통합 프로젝트**에서 사이버보안 담당으로 SIEM 파이프라인 아키텍처 설계와 WAF/IDS/IPS 로그 정규화 포맷 작업을 진행 중입니다.
+- **Python·Shell·AWS CLI**를 활용한 보안 업무 자동화와 반복 작업 효율화에 관심이 많습니다.
+- **AI 도구(ChatGPT, Claude 등)**를 학습·코드 리뷰·문서화·문제 해결에 적극 활용합니다.
+- 현재 **정보처리기사(필기 합격·실기 준비 중)·정보보안기사(필기 합격·실기 준비 중)** 취득을 위해 학습 중입니다.
+- Notion에 학습 내용을 꾸준히 정리합니다.
 
 ---
 
-## 🎯 Focus Areas
+## 주요 학습 내용
 
 | Area | What I'm Doing |
 | --- | --- |
-| ☁️ **Cloud Security** | AWS IAM·VPC·WAF·KMS·CloudTrail 기반 보안 아키텍처 설계 및 Terraform IaC 실습 |
-| 🔧 **Security Automation** | Python으로 AWS 자산 인벤토리·취약점 스캔(Trivy, Scout Suite)·로그 수집 자동화 |
-| 🛠️ **DevSecOps** | GitHub Actions 기반 CI/CD 파이프라인 및 IaC 보안 검증 도구 학습 |
-| 🕵️ **Threat Analysis** | Neo4j 그래프 기반 하이브리드(온프렘+AWS) 공격 경로 탐지 프로젝트 참여 |
-| 📊 **Data Pipeline** | Redis Streams·FastAPI 기반 대용량 로그 수집 파이프라인 설계 및 부하 테스트 |
-| 🤖 **AI Utilization** | AI 도구를 활용한 학습·개발 효율화, 문서 자동화 |
+| **Cloud Security** | AWS IAM·VPC·WAF·KMS·CloudTrail 기반 보안 아키텍처 설계 및 Terraform IaC 실습 |
+| **Security Automation** | Python으로 AWS 자산 인벤토리·취약점 스캔(Trivy, Scout Suite)·로그 수집 자동화 |
+| **DevSecOps** | GitHub Actions 기반 CI/CD 파이프라인 및 IaC 보안 검증 도구 학습 |
+| **Threat Analysis** | Neo4j 그래프 기반 하이브리드(온프렘+AWS) 공격 경로 탐지 프로젝트 참여 |
+| **Data Pipeline** | Redis Streams·FastAPI 기반 대용량 로그 수집 파이프라인 설계 및 부하 테스트 |
+| **AI Utilization** | AI 도구를 활용한 학습·개발 효율화, 문서 자동화 |
 
 ---
 
-## 🛠️ Tech Stack
+## 기술 스택
 
 <div align="center">
 
@@ -71,9 +71,9 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 
 ---
 
-## 📂 Featured Projects
+## 📂 프로젝트
 
-### 🏦 [FinPay 심화 보안 고도화 프로젝트](https://github.com/KDongGyu1/tectupSCPJ3)
+### [FinPay 심화 보안 고도화 프로젝트](https://github.com/KDongGyu1/tectupSCPJ3)
 > **전자금융 서비스를 가정한 AWS 클라우드 보안 아키텍처 (Terraform IaC)**  
 > `AWS` `Terraform` `ALB` `ASG` `CloudFront` `RDS` `보안 헤더`
 
@@ -87,7 +87,7 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 
 ---
 
-### 🛡️ [하이브리드 공격 경로 탐지 시스템](https://github.com/KDongGyu1/hybrid-attack-pathfinder.git)
+### [하이브리드 공격 경로 탐지 시스템](https://github.com/KDongGyu1/hybrid-attack-pathfinder.git)
 > **온프레미스 + AWS 하이브리드 인프라의 공격 경로를 Neo4j 그래프로 탐색하는 SOC 시스템**  
 > `AWS` `Neo4j` `Cypher` `Trivy` `Scout Suite` `AWS CLI` `Python`
 
@@ -100,7 +100,7 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 
 ---
 
-### 🎮 [게임 로그 수집 파이프라인](https://github.com/KDongGyu1/game-log-ingestion-pipeline)
+### [게임 로그 수집 파이프라인](https://github.com/KDongGyu1/game-log-ingestion-pipeline)
 > **초당 수만 건의 인게임 로그를 유실 없이 수집·적재하는 큐 기반 파이프라인**  
 > `FastAPI` `Redis Streams` `Docker Compose` `Terraform` `AWS ECS`
 
@@ -112,16 +112,16 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 
 ---
 
-## 📈 Currently Learning
+## 현재 학습 중
 
-- 📖 **정보처리기사** 필기 합격 · 실기 준비 중
-- 📖 **정보보안기사** 필기 합격 · 실기 준비 중
-- 🎯 **GitOps K8s Platform**: Terraform + EKS + GitHub Actions + ArgoCD + Prometheus 구성 실습
-- 🎯 **DevSecOps 파이프라인**: GitHub Actions + Trivy(컨테이너 스캔) + tfsec(IaC 스캔) + Slack 알림
+- **정보처리기사** 필기 합격 · 실기 준비 중
+- **정보보안기사** 필기 합격 · 실기 준비 중
+- **GitOps K8s Platform**: Terraform + EKS + GitHub Actions + ArgoCD + Prometheus 구성 실습
+- **DevSecOps 파이프라인**: GitHub Actions + Trivy(컨테이너 스캔) + tfsec(IaC 스캔) + Slack 알림
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -134,7 +134,7 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 
 ---
 
-## 📫 Contact & Links
+##  Contact & Links
 
 <div align="center">
 
