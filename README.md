@@ -15,13 +15,14 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 ## 👨‍💻 About Me
 
 - 🔐 클라우드 보안(AWS)과 **DevSecOps** 방향으로 커리어를 설계하고 있습니다.
-- 🏦 **AWS 기반 핀테크 보안 프로젝트**에서 팀장의 역할을 수행하며 전자금융감독규정을 준수한 AWS 아키텍처를 설계하고, **HTTPS/mTLS·KMS·WAF·CloudTrail 기반 로그 관제·EventBridge/SNS 알림**을 Terraform IaC로 구현했습니다.
-- 🛡️ 하이브리드 공격 경로 탐지 시스템 프로젝트에서 **자산 수집 자동화(Nmap·Trivy·Scout Suite·AWS CLI)** 를 담당하며, 온프레미스와 AWS 자산을 Neo4j 그래프로 연동하는 파이프라인을 학습했습니다.
-- 🎮 **게임 로그 수집 파이프라인**에서 **Redis Streams + FastAPI + Docker** 기반 유실 방지 아키텍처를 설계하고, 10,000건 부하테스트에서 **성공률 100%·pending 0·lag 0** 을 검증했습니다.
-- 🤖 **Python·Shell·API**를 활용한 보안 업무 자동화와 반복 작업 효율화에 관심이 많습니다.
+- 🏦 **AWS 기반 핀테크 보안 프로젝트**에서 팀장으로 참여해 전자금융감독규정을 준수한 AWS 아키텍처를 설계하고, ALB + ASG 기반 애플리케이션 서버 운영과 성능 측정을 담당했습니다.
+- 🛡️ **하이브리드 공격 경로 탐지 시스템** 프로젝트에서 자산 수집 자동화(Trivy·Scout Suite·AWS CLI)를 담당하며, 온프레미스와 AWS 자산을 Neo4j 그래프로 연동하는 파이프라인을 구축했습니다.
+- 🎮 **게임 로그 수집 파이프라인**에서 Redis Streams + FastAPI + Docker 기반 유실 방지 아키텍처를 설계하고, 10,000건 부하 테스트에서 **성공률 100%·pending 0·lag 0** 을 검증했습니다.
+- 🔒 현재 **24인 규모 통합 프로젝트**에서 사이버보안 담당으로 SIEM 파이프라인 아키텍처 설계와 WAF/IDS/IPS 로그 정규화 포맷 작업을 진행 중입니다.
+- 🤖 **Python·Shell·AWS CLI**를 활용한 보안 업무 자동화와 반복 작업 효율화에 관심이 많습니다.
 - 🧠 **AI 도구(ChatGPT, Claude 등)**를 학습·코드 리뷰·문서화·문제 해결에 적극 활용합니다.
-- 📚 현재 **정보처리기사/정보보안기사/AWS SAA** 자격증 취득을 위해 학습 중입니다.
-- ✍️ Velog와 Notion에 학습 내용을 꾸준히 정리합니다.
+- 📚 현재 **정보처리기사(필기 합격·실기 준비 중)·정보보안기사(필기 합격·실기 준비 중)** 취득을 위해 학습 중입니다.
+- ✍️ Notion에 학습 내용을 꾸준히 정리합니다.
 
 ---
 
@@ -57,18 +58,14 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 ![AWS IAM](https://img.shields.io/badge/AWS%20IAM-DD344C?style=for-the-badge&logo=amazoniam&logoColor=white)
 ![AWS WAF](https://img.shields.io/badge/AWS%20WAF-DD344C?style=for-the-badge&logo=amazonaws&logoColor=white)
 
-
-
 ### DevOps & Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-
 ### Collaboration & AI
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/AI%20Tools-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Velog](https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white)
 
 </div>
 
@@ -76,31 +73,30 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 
 ## 📂 Featured Projects
 
-### 🏦 [FinPay 심화 보안 고도화 프로젝트](https://github.com/KDongGyu1/tectupSCPJ3) 
+### 🏦 [FinPay 심화 보안 고도화 프로젝트](https://github.com/KDongGyu1/tectupSCPJ3)
 > **전자금융 서비스를 가정한 AWS 클라우드 보안 아키텍처 (Terraform IaC)**  
-> `AWS` `Terraform` `HTTPS/mTLS` `KMS` `WAF` `CloudTrail` `EventBridge`
+> `AWS` `Terraform` `ALB` `ASG` `CloudFront` `RDS` `보안 헤더`
 
-**역할**: 팀장 / App·운영·성능 담당(KT tech up 사이버보안 2기)
+**역할**: 팀장 / App·운영·성능 담당 (KT tech up 사이버보안 2기 · 4인 팀)
 
-- **전송보안 강화**: CloudFront → ALB → App → RDS 전 구간의 HTTPS 전환, `sslmode=require` 기반 PostgreSQL TLS 연결 적용
-- **App 보안 헤더 구현**: HTTPS 환경 자동 감지 후 `Secure Cookie`, `HSTS`, `CSP`, `X-Content-Type-Options`, `Referrer-Policy`, `Permissions-Policy` 일괄 적용
-- **PKI/mTLS PoC**: CloudFront Viewer mTLS로 클라이언트 인증서 미제출 요청 차단, Connection Log에서 `Failed:ClientCertMissing` 이벤트 증적 확보
-- **보안 관제 파이프라인**: CloudTrail·VPC Flow Logs·CloudFront Logs → EventBridge Rule → SNS 알림 → Runbook 대응 흐름 구성
-- **성능 기준선 확보**: 30회 요청 기준 평균 응답 0.076초, p95 0.087초 측정 (mTLS 적용 전후 비교 기준)
-- **전자금융감독규정 매핑**: 접근통제·암호화·인증·로그감사·백업 영역별 대응 항목 문서화
+- **인프라 코드화**: Terraform으로 VPC·ALB·ASG·RDS·CloudFront 전체 인프라 구성
+- **App 서버 운영**: ALB + ASG 기반 애플리케이션 서버 구성 및 운영 상태 진단
+- **보안 헤더 적용**: HSTS·CSP·X-Content-Type-Options·Secure Cookie 직접 구현
+- **성능 측정**: 부하 테스트로 p95 응답 0.087초, 실패율 0% 기준선 확보
+- **문서화**: 전자금융감독규정 매핑 문서 작성 및 팀 산출물 취합 주도
 
 ---
 
 ### 🛡️ [하이브리드 공격 경로 탐지 시스템](https://github.com/KDongGyu1/hybrid-attack-pathfinder.git)
 > **온프레미스 + AWS 하이브리드 인프라의 공격 경로를 Neo4j 그래프로 탐색하는 SOC 시스템**  
-> `AWS` `Neo4j` `Cypher` `Nmap` `Trivy` `Scout Suite` `2-VPC Architecture`
+> `AWS` `Neo4j` `Cypher` `Trivy` `Scout Suite` `AWS CLI` `Python`
 
 **역할**: 인프라3 - 자산 수집 담당 (KT tech up 사이버보안 2기)
 
-- **자산 수집 자동화 도구 구축**: `hap-soc-collector` EC2에서 **AWS CLI·Nmap·Trivy·Scout Suite** 를 격리 환경(venv)으로 설치·운영하는 스크립트 작성
-- **하이브리드 자산 인벤토리**: 온프레미스(Vagrant 기반 WordPress)와 AWS 자산(EKS·RDS·S3·IAM 등) 데이터를 수집해 Neo4j 그래프 시드 데이터 근거로 활용
-- **공격 시나리오 재현**: 온프렘 IAM 키 탈취 → AWS S3 접근, EKS Pod → IRSA → RDS 접근 등 실제 배포된 인프라에서 4개 시나리오(S1~S4) 재현 및 Cypher 쿼리로 검증
-- **2-VPC 분리 아키텍처 이해**: 분석 대상(Prod VPC) / 분석 시스템(SOC VPC)을 VPC Peering으로 분리한 SOC 구조 학습
+- **자산 수집 자동화**: AWS CLI·Trivy·Scout Suite를 venv 격리 환경으로 구성해 EC2·IAM·S3·RDS·KMS 등 8종 60개 이상 자산 수집
+- **취약점 스캔**: Trivy로 컨테이너 이미지 188개 취약점 탐지, Scout Suite로 AWS 계정 357개 Finding 도출
+- **팀 시나리오 연계**: 스캔 결과를 S1~S4 공격 시나리오와 매핑해 위험 지점 문서화
+- **위협 모델링 문서**: STRIDE + MITRE ATT&CK 기반 62개 위협 도출, CVSS v3.1 위험 평가 매트릭스 작성
 
 ---
 
@@ -108,37 +104,20 @@ AI 도구를 학습·개발·문서화 전 과정에 적극 활용해 생산성�
 > **초당 수만 건의 인게임 로그를 유실 없이 수집·적재하는 큐 기반 파이프라인**  
 > `FastAPI` `Redis Streams` `Docker Compose` `Terraform` `AWS ECS`
 
-- **아키텍처 설계**: File / Queue / DB 3가지 대안을 비교 분석 후 **Redis Streams 기반 Queue 방식** 채택 (API 응답성·장애 격리·수평 확장 관점)
-- **유실 방지 3중 방어**: ① XADD 실패 시 503 → 재시도 유도 ② Redis AOF 영속화 ③ **XACK 미완료 시 XAUTOCLAIM으로 회수 재처리**
-- **부하 테스트 검증**: bombardier로 동시 100 커넥션·10,000건 요청 → **성공률 100%, 5xx 0건, pending 0, lag 0** 확인
-- **재시작 유실 검증**: `docker compose restart` 이후에도 Redis Stream 데이터 10,000건 그대로 유지 확인
-- **운영 확장 설계**: Kafka(MSK) 전환 기준, ECS Fargate + ALB 오토스케일링, S3/OpenSearch/Athena 다중 다운스트림 확장안 문서화
-- **IaC 구성**: Terraform으로 VPC·ALB·ECS·ElastiCache 인프라 코드화
-
----
-
-### 🏠 [RoomLink](https://github.com/KDongGyu1/RoomLink) — 공간 연결 서비스
-> `Mobile Service` `Authentication` `[android]`
-- 사용자와 공간을 연결하는 모바일 애플리케이션 서비스 프로젝트
-- 사용자 인증/인가 흐름 구현 경험
-
-### 🎓 [학점가방](https://github.com/Dongguk-unibag) — 동국대학교 학점 관리 서비스
-> `Team Project` `Collaboration` `[android]` `[ios]`
-- 팀 단위 협업 프로젝트, 학점 관리 서비스 구현 모바일 애플리케이션
-- Git 협업 워크플로우 및 이슈 관리 경험
+- **아키텍처 설계**: File·Queue·DB 3가지 방식 비교 후 Redis Streams 기반 Queue 방식 채택
+- **유실 방지 3중 구조**: XADD 실패 시 503 재시도 유도 · Redis AOF 영속화 · XAUTOCLAIM 회수 재처리
+- **부하 테스트**: bombardier 동시 100 커넥션·10,000건 요청 → 성공률 100%, pending 0, lag 0 검증
+- **재시작 유실 검증**: docker compose restart 후 10,000건 데이터 유지 확인
+- **IaC**: Terraform으로 VPC·ALB·ECS·ElastiCache 인프라 코드화
 
 ---
 
 ## 📈 Currently Learning
 
-- 📖 **정보처리기사** 필기 취득 후 실기 준비중
-- 📖 **정보보안기사** 필기 준비중
-- 🎯 **Python 기반 AWS 보안 자동화 스크립트** 미니 프로젝트 진행 중
-  - IAM 사용자 권한 감사 스크립트 (미사용 계정·과도 권한 탐지)
-  - S3 버킷 퍼블릭 노출 스캐너
-  - CloudTrail 이상 이벤트 알림 자동화 (Lambda + SNS)
-- 🎯 **DevSecOps 파이프라인 실습**: GitHub Actions + Trivy(컨테이너 스캔) + tfsec(IaC 스캔) + Slack 알림
-- 🎯 **Neo4j Cypher 심화 학습**: 하이브리드 공격 경로 탐지 프로젝트 확장
+- 📖 **정보처리기사** 필기 합격 · 실기 준비 중
+- 📖 **정보보안기사** 필기 합격 · 실기 준비 중
+- 🎯 **GitOps K8s Platform**: Terraform + EKS + GitHub Actions + ArgoCD + Prometheus 구성 실습
+- 🎯 **DevSecOps 파이프라인**: GitHub Actions + Trivy(컨테이너 스캔) + tfsec(IaC 스캔) + Slack 알림
 
 ---
 
